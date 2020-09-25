@@ -1,0 +1,381 @@
+<!doctype html> 
+<html>
+    <head>
+        <title>Why Sam ?</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        
+        <!-- My basic site style stylesheet -->
+        <link rel="stylesheet" type="text/css" href="assets/css/Style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/Home.css"/>
+    
+
+    </head>
+    <body>
+        <!--Header interest bar, to have background image and logo display-->
+        <Header>
+            <div>
+                <!--<img src="#" class="logo" alt="Sam's Logo, Samantha Wakelam 1st class honours"/>-->
+                <div class="img-thumbnail" id="logo"><img src="assets/images/Logo.png" alt="Samantha Wakelam 1st class honours Logo" width="100%"> </div>
+            </div>
+        </Header>
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navcolour">    
+            <!--Navigation Toggler collapse COntent-->     
+            <div class="collapse navbar-collapse" id="MainNavbar">
+              <!--Navigation Links -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!--Dropdown Link what is the # referencecing?-->
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbardrop">Portfolio</a>
+                  <!--dropdown menu -->
+                  <div class="dropdown-menu dropdown-menu-left">
+                    <a class="dropdown-item" href="fashion.html">Fashion</a>
+                    <a class="dropdown-item" href="interior.html">Interior</a>
+                    <a class="dropdown-item" href="building.html">Building</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--Navigation Toggler-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Dropdown Menu button - why is this on the right of the screen? 
+            <div class="dropdown">
+              <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Portfolio</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Fashion</a>
+                <a class="dropdown-item" href="#">Interior</a>
+                <a class="dropdown-item" href="#">Building</a>
+              </div>
+            </div>   -->
+        </nav>
+
+        <!--Content-->
+        <Div class="container-fluid">
+            <div class="row">
+              <!--Aside content--> 
+                <aside class="asideSection col-md-2">
+                    
+                      <ul class="nav nav-pills">
+                      <!-- Buttons-->
+                        <li class="nav-item">
+                          <a type="button" 
+                            class="btn btn-block btn-style btn-lg" 
+                            data-toggle="pill" 
+                            href="#sam">
+                            <div>About Sam</div>                        
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a type="button" 
+                            class="btn btn-block btn-style btn-lg" 
+                            data-toggle="pill" 
+                            href="#Education">
+                            <div>Education</div>
+                          </a>
+                        </li>
+                    <Li class="nav-item">
+                      <a type="button" 
+                      class="btn btn-block btn-style btn-lg" 
+                      data-toggle="pill" 
+                      href="#compSkill">
+                        <div>Computer skills</div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a type="button" 
+                      class="btn btn-block btn-style btn-lg" 
+                      data-toggle="pill" 
+                      href="#otherInt">
+                        <div>Other Interests</div>
+                      </a>
+                    </li>
+                    </ul>
+
+                    
+                </aside>
+
+
+                <!--section content-->
+                <section class="col-md-10">
+                 <div class="tab-content">
+                  <!-- All about sam -->
+                  <div class="tab-pane container active" id="sam">
+                    <div class="row section-padding">
+                     <h1>All About Sam</h1>
+                    </div>
+                    <div class="row section-padding">
+                      <div class="col-md-3">
+                        <img alt="Image of Sam" src="assets/images/sam.jpg" class="img-thumbnail justify-content-center">
+                      </div>
+                      <div class="col-md-9">
+                        <p>Insert Brand Image having spoken to Dan Williams on Wednesday.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Education -->
+                  <div class="tab-pane container fade" id="Education">
+                  <div class="row section-padding">
+                    <h1 class="section-padding">Education</h1>
+                  </div>
+                  <div class="row section-padding">
+                    <div class="col-md-3">
+                      <img alt="Image of Sam" src="assets/images/sam.jpg" class="img-thumbnail justify-content-center">
+                    </div>
+                    <div class="col-md-9">
+                      <!-- Nav Tabs -->
+                      <ul class="nav nav-tabs nav-justified">
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#brumUni">Birmingham University</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#wolvesUni">Wolverhampton University</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#nottsUni">Nottingham Trent University</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#worces">Worcester Sixth Form</a>
+                        </li>
+                      </ul>
+                      <!-- Nav panes -->
+                      <div class="tab-content">
+                        <div id="brumUni" class="tab-pane container active">
+                          <p>Birmingham University and some info about coding<p>
+                        </div>
+                        <div class="tab-pane container fade" id="wolvesUni">
+                          <p> Wolves universtiy and some info on BIM</p>
+                        </div>
+                        <div class="tab-pane container fade" id="nottsUni">
+                          <p> Nottingham university and some info on fashion</p>
+                        </div>
+                        <div class="tab-pane container fade" id="worces">
+                          <p> A-Levels</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!-- Computer Skills -->
+                  <div class="tab-pane container fade" id="compSkill">
+                  <div class="row section-padding">
+                    <h1>Computer Skills</h1>
+                  </div>
+                  <div class="row section-padding">
+                    <div class="col-md-3 container">
+                      <img alt="Image of Sam" src="assets/images/sam.jpg" class="img-thumbnail justify-content-center">
+                    </div>
+
+                    <div class="col-md-9">
+
+                      <!-- Cards -->
+                      <div class="card-columns">
+
+                        <div class="card " style="width:130px">
+                          <img class="card-content symbols" alt="Autodesk" src="assets/images/symbols/Autodesk.png">
+                          <div class="card-body">
+                            <h4>Autodesk</h4>
+                            <p class="customcard"></p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" 
+                          alt="Revit" 
+                          src="assets/images/symbols/Revit.png"/>
+                          <div class="card-body">
+                            <h4>Revit</h4>
+                            <p class="customcard">I am using Revit in my current role</p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="AutoCAD" src="assets/images/symbols/Autocad.png">
+                          <div class="card-body">
+                            <h4>AutoCAD</h4>
+                            <p class="customcard">I am using AutoCAD in my current role</p>
+                          </div>
+                        </div>     
+                        
+                        <div class="card"style="width:130px">
+                          <img class="card-content symbols" alt="SketchUp" src="assets/images/symbols/SketchUp.png">
+                          <div class="card-body">
+                            <h4>SketchUp</h4>
+                            <p class="customcard">I use SketchUp Daily from 2015</p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="V-ray" src="assets/images/symbols/V-ray.png">
+                          <div class="card-body">
+                            <h4>V-Ray</h4>
+                            <p class="customcard">I have 1 years exp using V-Ray</p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Adobe Photoshop" src="assets/images/symbols/Photoshop.png">
+                          <div class="card-body">
+                            <h4>Adobe Photoshop</h4>
+                            <p class="customcard">I have extensive experience with Adobe Products</p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Adobe Illustrator" src="assets/images/symbols/Illustrator.png">
+                          <div class="card-body">
+                            <h4>Adobe Illustrator</h4>
+                            <p class="customcard">I have extensive experience with Adobe Products</p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Adobe InDesign" src="assets/images/symbols/Indesign.png">
+                          <div class="card-body">
+                            <h4>Adobe InDesign</h4>
+                            <p class="customcard">I have extensive experience with Adobe Products</p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Adobe Dreamweaver" src="assets/images/symbols/Dreamweaver.png">
+                          <div class="card-body">
+                            <h4>Adobe Dreamweaver</h4>
+                            <p class="customcard">
+                              After my BA(hons) I taught myself Dreamweaver to create an online portfolio (2014). 
+                              I am now pursuing a better education in fully stacked coding
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Adobe Dreamweaver" src="assets/images/symbols/Dreamweaver.png">
+                          <div class="card-body">
+                            <h4>Adobe Dreamweaver</h4>
+                            <p class="customcard">
+                              After my BA(hons) I taught myself Dreamweaver to create an online portfolio (2014). 
+                              I am now pursuing a better education in fully stacked coding
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Microsoft Excel" src="assets/images/symbols/Excel.png">
+                          <div class="card-body">
+                            <h4>Microsoft Excel</h4>
+                            <p class="customcard">
+                              I can use and program functions to create basic programs.
+                              In my last job I created a calculator to work out rrp and 
+                              least amount of fabric needed accross multiple applications. 
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Microsoft Powerpoint" src="assets/images/symbols/Powerpoint.png">
+                          <div class="card-body">
+                            <h4>Microsoft Powerpoint</h4>
+                            <p class="customcard"></p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Microsoft Word" src="assets/images/symbols/Word.png">
+                          <div class="card-body">
+                            <h4>Microsoft Word</h4>
+                            <p class="customcard"></p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Microsoft Windows PC" src="assets/images/symbols/Windows.png">
+                          <div class="card-body">
+                            <h4>Microsoft Windows PC</h4>
+                            <p class="customcard"> I work mainly on Windows</p>
+                          </div>
+                        </div>
+
+                        <div class="card" style="width:130px">
+                          <img class="card-content symbols" alt="Apple Mac" src="assets/images/symbols/Mac.png">
+                          <div class="card-body">
+                            <h4>Apple Mac</h4>
+                            <p class="customcard"> I can use Apple Mac computers effectivly. I have used it in previous employment</p>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  </div>
+
+                  <!--Other interests -->
+                  <div class="tab-pane container fade" id="otherInt">
+                  <div class="row section-padding">
+                    <h1 class="section-padding">Interests</h1>
+                  </div>
+                  <div class="row section-padding">
+                    <div class="col-md-3">
+                      <img alt="Image of Sam" src="assets/images/sam.jpg" class="img-thumbnail justify-content-center">
+                    </div>
+                    <div class="col-md-9">          
+                      <ul>
+                        <Li>• Self motivated</Li>
+                        <Li>• Able to visualise in 3D</Li>
+                        <Li>• Eager to learn new skills</Li>
+                        <Li>• Can teach myself new program software</Li>
+                        <Li>• Ambitious to improve skills I already have</Li>                 
+                      </ul>
+                      <ul>
+                        <li>• Culture - ballet, museums, art galleries and historical sites</li> 
+                        <li>• Problem solving, maths and the way things work</li> 
+                        <li>• Design software</li>
+                        <li>• Fashion design - designing and making my own clothes, drawing patterns</li>
+                        <li>• Outdoor Activities - walking, climbing, mountain biking, skiing</li>
+                        <li>• Photography</li> 
+                        <li>• Pottery</li>
+                        <li>• Building design using SketchUp</li>
+                    </ul>                      
+                    </div>
+                  </div>
+                  </div>
+
+                </div>
+                </section>
+            </div>
+        </Div>
+
+        <!--footer -
+        - the bootstrap works, why does it seem to override my CSS when my CSS is below in the cascading order? 
+          --> 
+        <footer class="fixed-bottom">
+          <div class="footerbar">
+
+          </div>
+        </footer>
+
+        <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
+
+<!---->

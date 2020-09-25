@@ -1,0 +1,87 @@
+header div {
+  background-image: url(../images/interior/scandDes_kitchBanner2.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  object-fit: contain;
+}
+
+
+/* Aside Styling */
+
+
+.btn-size {
+    display: block;
+    float: right;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(240, 228, 228);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .Menu-top-padding {
+    padding-top: 48px;
+  }
+
+  /* Section Styling */
+
+  .section-padding {
+    margin-left: 25px;
+  }
+
+section div p {
+    height: 50px;
+    background-color: rgb(240, 228, 228);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* With help from the w3schools class for forms 
+- w3schools. (1999-2020). css FOrms. w3schools.com. https://www.w3schools.com/css/css_form.asp. 
+
+Why did this interfear with the nav and the asidebar? 
+Adding form element to the begining has iscolated the input 
+away from the navigation commands in the navbar and aside 
+(though i didnt think there were inputs there?) */
+
+form input [text="text"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(137 133 130);
+  box-sizing: border-box;
+}
+
+form input [type = "submit"] {
+  width: 100%;
+  background-color: rgb195 191 192;
+  color: rgb(137 133 130);
+  padding: 10px 15px;
+  margin: 8px 0;
+}
+
+form input [type = "submit"]:hover {
+  background-color: rgb(218 218 218);
+}
+
+form div {
+  padding: 15px;
+  background-color: rgb(240, 228, 228);
+}
+
+form textarea {
+  width: 100%;
+  background-color: rgb195 191 192;
+  color: rgb(137 133 130);
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  resize: none;  
+}

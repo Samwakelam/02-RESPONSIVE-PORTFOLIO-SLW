@@ -1,0 +1,53 @@
+Body {
+    padding: 0;
+    margin: 0;
+}
+
+header div {
+    background-image: url(../images/interior/scandDes_moodBanner2.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+/* section Styling - (Happy with whats here)*/
+
+section h1 {
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-padding {
+    margin-left: 25px;
+}
+
+.img-thumbnail {
+    height: 200px;
+    min-width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img.symbols {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+}
+
+h4 {
+    color: red;
+    font-size: 20px;
+}
+
+p.customcard {
+    color: blue;
+    font-size: 10px;
+}
+

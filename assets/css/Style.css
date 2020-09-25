@@ -1,0 +1,85 @@
+
+/* Header styling */
+
+header div {
+    background-color: rgb(195, 191, 192);
+    height: 300px;
+}
+
+div#logo {
+    background-color: rgb(240, 228, 228);
+    height: 200px;
+    width: 200px;
+    top: 50px;
+    left: 50px;
+    position: relative;
+}
+
+/* Navigation styling - 
+I cant get this to change the nav bar?
+ID is more specific so why doesnt it overide the bootstrap .bg-drk?   */
+
+.bg-dark {
+    background-color: rgb(137,133,130);
+}
+
+/* Why doesnt this change the nav bar colour?  */
+#navcolour {
+    background-color: rgb(137,133,130);
+}
+
+
+/* content styling */
+
+/* Aside styling  */
+
+ .asideSection {
+    padding: 10px;
+ }
+
+aside {
+    background-color: rgb(195, 191, 192);
+    min-height: 350px;
+}
+
+.btn-style {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(240, 228, 228);
+    margin: 10px;
+    justify-content: center;
+    
+}
+
+/* section styling  */
+
+section {
+    background-color: rgb(240, 228, 228);
+    min-height: 350px;
+}
+
+
+/* footer styling 
+Why is the border not fixed to the bottom of the screen with this command? it has disapeared entirley*/
+
+/* .footerbar {
+    background-color: rgb(137,133,130);
+    height: 50px;
+    bottom: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 50px;
+} */
+
+
+.footerbar {
+    background-color: rgb(137,133,130);
+    height: 50px;
+    bottom: 0px;
+}
+
+@media screen and {
+    
+}

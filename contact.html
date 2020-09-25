@@ -1,0 +1,135 @@
+<!doctype html> 
+<html>
+    <head>
+        <title>Why Sam ?</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        
+        <!-- My basic site style stylesheet -->
+        <link rel="stylesheet" type="text/css" href="assets/css/Style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/Contact.css"/>
+    
+
+    </head>
+    <body>
+        <!--Header interest bar, to have background image and logo display-->
+        <Header>
+            <div>
+                <!--<img src="#" class="logo" alt="Sam's Logo, Samantha Wakelam 1st class honours"/>-->
+                <div class="img-thumbnail" id="logo"><img src="assets/images/Logo.png" alt="Samantha Wakelam 1st class honours Logo" width="100%"> </div>
+            </div>
+        </Header>
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navcolour">    
+            <!--Navigation Toggler collapse COntent-->     
+            <div class="collapse navbar-collapse" id="MainNavbar">
+              <!--Navigation Links -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!--Dropdown Link what is the # referencecing?-->
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbardrop">Portfolio</a>
+                  <!--dropdown menu -->
+                  <div class="dropdown-menu dropdown-menu-left">
+                    <a class="dropdown-item" href="fashion.html">Fashion</a>
+                    <a class="dropdown-item" href="interior.html">Interior</a>
+                    <a class="dropdown-item" href="building.html">Building</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--Navigation Toggler-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <!--Content-->
+        <Div class="container-fluid">
+            <div class="row">
+
+                <!--Aside content--> 
+                <aside class="col-xl-2">
+                    <div class="Menu-top-padding">
+                        <div class="clearfix">
+                            <img class="btn-size clearfix" src="assets/images/symbols/address.png" alt="Address Symbol">
+                        </div>
+                        <div class="clearfix">
+                          <img class="btn-size clearfix" src="assets/images/symbols/Email.png" alt="Email Symbol">
+                        </div>
+                        <div class="clearfix">
+                          <img class="btn-size clearfix" src="assets/images/symbols/Linked-In.png" alt="LinkedIn Symbol">
+                        </div>
+                        <div class="clearfix">                         
+                          <img class="btn-size clearfix" src="assets/images/symbols/Telephone.png" alt="Telephone Symbol">
+                        </div>
+                    </div>
+                </aside>
+
+
+                <!--section content-->
+                <section class="col-xl-10">
+                  <h1>My contact details</h1>
+                    <div class="row section-padding">
+                        <p> I Live in worcestershire</p>                  
+                    </div>
+                    <div class="row section-padding">
+                        <p>sam.wakelam@hotmail.co.uk</p>                  
+                    </div>
+                    <div class="row section-padding">
+                        <p>Find me on LinkedIn Sam Wakelam</p>                  
+                    </div>
+                    <div class="row section-padding">
+                        <p>Phone</p>                  
+                    </div>
+
+                    <!-- Form, there are no links in this. 
+                    The fields are not in columns because i have not specified them to do so. I could use the CSS col-75, 
+                    col-25 method or simply the bootstrap grid as i have been doing.
+                    Time allowing I may come back an arrange this using Div row and Div colomns
+                  
+                  I have css styled input with attribut text to have a box width 100%, possibly it should stack one under the other? -->
+                  <!-- Question: the form doesnt scoll all the way up?  -->
+
+                    <h2>Get in touch</h2>
+                    <form action="/action_page.php'">
+                      <label for="name">Your Name</label>
+                      <input type="text" id="name" name="name" placeholder="Please put your name here..." />
+                      <label for="eAdd">Email Address</label>
+                      <input type="text" id="eAdd" name="Email" placeholder="Please put Email here..." />
+                      <textarea id="message" name="message" placeholder="Please Leave a message..." style="height:200px"></textarea>
+
+                      <input type="submit" value="smart">
+                    </form>
+                   
+                </section>
+            </div>
+        </Div>
+
+        <!--footer-->
+        <footer class="fixed-bottom">
+          <div class="footerbar">
+
+          </div>
+        </footer>
+
+        <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
+
+<!---->

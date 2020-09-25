@@ -1,0 +1,124 @@
+<!doctype html> 
+<html>
+    <head>
+        <title>Sam's Work</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        
+        <!-- My basic site style stylesheet -->
+        <link rel="stylesheet" type="text/css" href="assets/css/Style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css"/>
+    
+
+    </head>
+    <body>
+        <!--Header interest bar, to have background image and logo display-->
+        <Header>
+            <div>
+                <!--<img src="#" class="logo" alt="Sam's Logo, Samantha Wakelam 1st class honours"/>-->
+                <div class="img-thumbnail" id="logo"><img src="assets/images/Logo.png" alt="Samantha Wakelam 1st class honours Logo" width="100%"> </div>
+            </div>
+        </Header>
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navcolour">    
+            <!--Navigation Toggler collapse COntent-->     
+            <div class="collapse navbar-collapse" id="MainNavbar">
+              <!--Navigation Links -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!--Dropdown Link what is the # referencecing?-->
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbardrop">Portfolio</a>
+                  <!--dropdown menu -->
+                  <div class="dropdown-menu dropdown-menu-left">
+                    <a class="dropdown-item" href="fashion.html">Fashion</a>
+                    <a class="dropdown-item" href="interior.html">Interior</a>
+                    <a class="dropdown-item" href="building.html">Building</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--Navigation Toggler-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <!--Content-->
+        <Div class="container-fluid">
+            <div class="row">
+
+                <!--Aside content--> 
+            <aside class="col-md-2">
+              <div>
+                <ul class="nav nav-pills">
+                  <!-- Buttons-->
+                  <li class="nav-item">
+                    <div class="clearfix">
+                    <a type="button" 
+                      class="btn btn-block btn-style btn-lg" 
+                      data-toggle="pill" 
+                      href="#Notts">
+                      <div id="Nottlogo"></div>                        
+                    </a>
+                  </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="clearfix"> 
+                    <a type="button" 
+                      class="btn btn-block btn-style btn-lg" 
+                      data-toggle="pill" 
+                      href="#redpoint">
+                      <div id="redlogo"></div>
+                    </a>
+                  </div>
+                  </li>
+              </ul>
+
+              </div>
+            </aside>
+
+        
+
+
+                <!--section content-->
+                <section class="col-md-10">
+                  <div class="card-deck">
+
+                    <div class="card">
+                      <img class="card-content" src="assets/images/Fashion/Outfirt_Jacket.jpg" />                   
+                    </div>
+                    
+                </div> 
+              </section>
+            </div>
+        </Div>
+
+        <!--footer-->
+        <footer>
+          <div class="footerbar">
+
+          </div>
+        </footer>
+
+        <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
+
+<!---->

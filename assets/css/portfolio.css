@@ -1,0 +1,57 @@
+header div {
+    background-image: url(../images/Fashion/Outfit_All.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    object-fit: contain;
+  }
+
+/* Aside Styling */
+
+/* .btn-size {
+    display: block;
+    float: right;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(240, 228, 228);
+    margin-top: 25px;
+    margin-bottom: 25px; 
+ } */
+
+ 
+
+  #Nottlogo {
+      background-image: url(../images/symbols/NottsTrent.png);
+  }
+
+  #redlogo {
+    background-image: url(../images/symbols/redPoint.png);
+    box-sizing: border-box;
+    background-repeat: none;
+}
+
+.btn-style {
+    width: 50px;
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Section Styling */
+
+  div.card img {
+    height: 550px;
+}
+
+ 
+
+  /* Why does this not change the nav colour when i have put an ID on it. Specificty should be good?  */
+
+  #navcolour {
+      background-color: rgb(137 133 130);
+  }

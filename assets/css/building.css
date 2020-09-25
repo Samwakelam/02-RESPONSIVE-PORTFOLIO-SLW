@@ -1,0 +1,30 @@
+
+/* Section Styling  */
+
+section h1 {
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-padding {
+    margin-left: 25px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(137,133,130);
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 2px solid rgb(195,191,192);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
