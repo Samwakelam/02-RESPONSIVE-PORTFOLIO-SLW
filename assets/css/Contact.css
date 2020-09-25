@@ -85,3 +85,18 @@ form textarea {
   box-sizing: border-box;
   resize: none;  
 }
+
+/* w3schools. (1999-2020) Responsive form. w3schools.com. https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ aside {
+    display: none;
+  }
+}

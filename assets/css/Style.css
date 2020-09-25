@@ -80,6 +80,23 @@ footer {
     bottom: 0px;
 }
 
-@media screen and {
+@media screen and (max-width:600px) {
+    header div {
+        background-color: rgb(195, 191, 192);
+        height: 150px;
+    }
     
+    div#.img-thumbnail {
+        background-color: rgb(240, 228, 228);
+        height: 75px;
+        width: 75px;
+        top: 50px;
+        left: 50px;
+        position: relative;
+    }
+
+    div#logo img {
+        width: 100%;
+    }
 }
+    
