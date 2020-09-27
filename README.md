@@ -62,18 +62,27 @@ I cannot get the cards to "fall nicely", again having issues keeping the picture
 
 2.	I want to reduce the margin I think between the buttons, in theory a simple task, but in reality it took me ages to replicate that with the paragraph tags in the main body, using the same instructions for the div containers, but they don't seem to want to keep the shapes and sizes I give them.  Somehow, I stumbled on the solution to this, I do not feel like it is right and consequently do not want to change it.
 
+(Update 27.09.2020 - I have reduced the padding around the tiles and paragraph, all worked as expected so who knows what I managed to do the first time.)   
+      
+
 ![Contact Page fixed bottom and form ](assets/images/screenshots/formInterfear-min.JPG)   
 ![Contact Page code](assets/images/screenshots/formCodeBad-min.JPG)   
 I have managed to change the little buttons padding etc, as you would expect. It all seems to be as you would expect, so I am not sure what I created in the first instance. 
 
 I have fixed the footer to the bottom of the screen, but not without faults, the rest of the content does not follow it. and some of the content does not scoll above it. 
 
+(Update 27.09.2020 - this was fixed by taking out the bootstrap and using position relative, however the footer still floats in mid air if the content is not long enough for the screen)
+
 As you can see the form css has interfeared with the aside and nav bar. i have left comments in the css here. I resolved this by targeting the form input attribute selectors only. 
+
+(Update 27.09.2020 - added some bootstrap to the form to make it much nicer.)
 
 ![Contact Page fixed bottom and form ](assets/images/screenshots/fixedBottom-min.JPG)
 ![Contact Page code](assets/images/screenshots/formCodeGood-min.JPG)
 
 Next problem, the form doesnt scroll all the way past the footer.... 
+
+(Update 27.09.2020 - this was fixed by taking out the bootstrap and using position relative, however the footer still floats in mid air if the content is not long enough for the screen)
 
 
  ### Fashion Page
@@ -87,10 +96,14 @@ I am either struggling to get floats and blocks to work and not have everything 
 
 The cards, either squash the photos, or are massive on the page and I have tried CSS and class and id to try and "force it" but for some reason whatever I try is just messing up and I’m losing patience with it. I just do not seem to understand why it is not doing what I think I am telling it. It does not seem to follow any logic patterns at all.
 
+(Update 27.09.2020 - While I have not amended this in time for the homework, I ahve been reading about sizing today, I think i have tried to use the wrong units for the hights and widths. I am to revisit this soon. It is a missunderstanding of inherited assets from the containers and img elemennts i belieive.)
+
  ### Building Page
  ![Index page about sam](assets/images/screenshots/building-min.JPG)
 
 This Page I completed having researched CSS image gallery, as an alternative to the cards as a presentation. I needed to demonstrate Bootstrap but also I wanted to test some other theories. This seems to have gone to plan. 
+
+(Update 27.09.2020 - There is an odd flickering effect if I increase the :hover to 2px boarder. Described in notes in HTML and CSS, I believe it is a magin padding and box-size issuse, but I am not sure where to target.)
 
 ## Credits 
 

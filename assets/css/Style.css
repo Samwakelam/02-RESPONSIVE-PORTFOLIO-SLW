@@ -113,11 +113,10 @@ footer {
     background-color:rgb(137,133,130);
   }
   .text-muted-footer {
-    /* Box-model */
-    margin-top: 15px;
-  
+      
     /* Typography */
-    color: rgb(240, 228, 228);
+    color: rgb(195, 191, 192);
+   
   }
   
  
