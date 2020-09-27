@@ -2,32 +2,23 @@
 header div {
     background-image: url(../images/building/buildPage4Banner.png);
     background-repeat: no-repeat;
-    height: 300px;
     object-fit: contain;
   }
 
 
-/* Section Styling  */
-
-section h1 {
-    color: red;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.section-padding {
-    margin-left: 25px;
-}
+/* Section Styling unsure why first two images flicker and change layout of the gallery?  */
 
 div.gallery {
     margin: 5px;
     border: 1px solid rgb(137,133,130);
     float: left;
-    width: 500px;
+    width: 490px;  
 }
+/* Reduced to allow for border increase. 
+Boarder increase to 2px to do with the hover causes movement and flickering on first two elements only. */
 
 div.gallery:hover {
-    border: 2px solid rgb(195,191,192);
+    border: 1px solid rgb(195,191,192);
 }
 
 div.gallery img {
@@ -37,12 +28,7 @@ div.gallery img {
 
 /* Responsive styling */
 
-@media screen and (Max-width:600px){
-    header div {
-        background-color: rgb(195, 191, 192);
-        height: 150px;
-    }
-    
+@media screen and (Max-width:600px){   
     div.gallery {
         margin: 5px;
         border: 1px solid rgb(137,133,130);

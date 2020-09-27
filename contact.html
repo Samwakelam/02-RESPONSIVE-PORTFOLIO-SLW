@@ -4,7 +4,7 @@
         <title>Why Sam ?</title>
 
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
         
@@ -102,13 +102,16 @@
 
                     <h2>Get in touch</h2>
                     <form action="/action_page.php'">
-                      <label for="name">Your Name</label>
-                      <input type="text" id="name" name="name" placeholder="Please put your name here..." />
-                      <label for="eAdd">Email Address</label>
-                      <input type="text" id="eAdd" name="Email" placeholder="Please put Email here..." />
-                      <textarea id="message" name="message" placeholder="Please Leave a message..." style="height:200px"></textarea>
+                      <div class="form-group">
+                        <label for="name" class="mr-sm-2">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Please put your name here..." class="form-control mb-2 mr-sm-2"/>
+                        <label for="eAdd" class="mr-sm-2">Email Address</label>
+                        <input type="text" id="eAdd" name="Email" placeholder="Please put Email here..." class="form-control mb-2 mr-sm-2"/>
+                        <label for="message" class="mr-sm-2">Leave Me a Message</label>
+                        <textarea id="message" name="message" placeholder="Please Leave a message..." style="height:200px"></textarea>
 
-                      <input type="submit" value="smart">
+                       <input type="submit" value="smart">
+                      </div>
                     </form>
                    
                 </section>
@@ -116,9 +119,9 @@
         </Div>
 
         <!--footer-->
-        <footer class="fixed-bottom">
+        <footer>
           <div class="footerbar">
-
+            <p>Copy right of all images and content 2020. </p>
           </div>
         </footer>
 

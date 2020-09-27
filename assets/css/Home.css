@@ -1,16 +1,10 @@
-/* section Styling */
 
-Body {
-    padding: 0;
-    margin: 0;
-}
+/* Header Styling */
 
 header div {
     background-image: url(../images/interior/scandDes_moodBanner2.png);
     background-repeat: no-repeat;
-    height: 300px;
-    padding: 0;
-    margin: 0;
+    object-fit: contain;
 }
 
 /* section Styling - (Happy with whats here)*/
@@ -25,7 +19,7 @@ section h1 {
     margin-left: 25px;
 }
 
-.img-thumbnail {
+.img-thumbnail#sam {
     height: 200px;
     min-width: 200px;
     margin-top: 15px;
@@ -56,18 +50,3 @@ p.customcard {
 /* Responsive design - there is something blocking the code with page, 
 it is the only page not to respond to the @media, and has an odd padding I cant locate  */
 
-@media screen and (Max-width:600px){
-    header div {
-        background-color: rgb(195, 191, 192);
-        height: 150px;
-    }
-
-    div#logo {
-        background-color: rgb(240, 228, 228);
-        height: 100px;
-        width: 100px;
-        top: 25px;
-        left: 25px;
-        position: relative;
-    }
-}
