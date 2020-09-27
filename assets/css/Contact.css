@@ -1,7 +1,8 @@
+/* Header Styling */
+
 header div {
   background-image: url(../images/interior/scandDes_kitchBanner2.png);
   background-repeat: no-repeat;
-  height: 300px;
   object-fit: contain;
 }
 
@@ -95,8 +96,14 @@ form textarea {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
  aside {
     display: none;
   }
 }
+
+@media screen and (Max-width:600px){
+  header div {
+      background-color: rgb(195, 191, 192);
+      height: 150px;
+  }

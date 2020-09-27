@@ -1,5 +1,8 @@
 
 /* Header styling */
+* {
+    box-sizing: border-box;
+}
 
 header div {
     background-color: rgb(195, 191, 192);
@@ -80,6 +83,9 @@ footer {
     bottom: 0px;
 }
 
+
+/* Responsive deisgn  */
+
 @media screen and (max-width:600px) {
     header div {
         background-color: rgb(195, 191, 192);
@@ -95,8 +101,13 @@ footer {
         position: relative;
     }
 
-    div#logo img {
-        width: 100%;
+    div#logo {
+        background-color: rgb(240, 228, 228);
+        height: 100px;
+        width: 100px;
+        top: 25px;
+        left: 25px;
+        position: relative;
     }
 }
     

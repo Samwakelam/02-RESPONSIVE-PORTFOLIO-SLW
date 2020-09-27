@@ -1,3 +1,11 @@
+/* Header styling specific for this page */
+header div {
+    background-image: url(../images/building/buildPage4Banner.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    object-fit: contain;
+  }
+
 
 /* Section Styling  */
 
@@ -15,7 +23,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid rgb(137,133,130);
     float: left;
-    width: 180px;
+    width: 500px;
 }
 
 div.gallery:hover {
@@ -27,4 +35,24 @@ div.gallery img {
     height: auto;
 }
 
+/* Responsive styling */
 
+@media screen and (Max-width:600px){
+    header div {
+        background-color: rgb(195, 191, 192);
+        height: 150px;
+    }
+    
+    div.gallery {
+        margin: 5px;
+        border: 1px solid rgb(137,133,130);
+        float: left;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    aside {
+       display: none;
+     }
+   }
