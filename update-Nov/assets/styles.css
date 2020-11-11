@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styling  */
+
+html {
+    border: 5px solid rgb(225,128,41);
+    min-height: 100vh;
+    max-width: 100vw;
+    
+}
+
+body {
+    background-image: url(images/rocksDiagonalw100.png);
+    background-repeat: repeat;
+}
+
+div#main-body {
+    width: 95%;
+    min-height: 95vh;
+    margin: 2.5%;
+    border: 5px solid rgb(48,45,52);
+    background-color: rgb(232,228,225);
+
+}
+
+h1, h2 {
+    font-family: 'Bungee', cursive;
+}
+
+h2 {
+  margin: 7px 0 10.6px 0;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+div.paragraph-details{
+  background-color: white;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 10px 0;
+  min-height: 80px;
+}
+
+.text-vertical-left{
+    writing-mode:vertical-rl;
+    text-orientation: sideways; 
+    transform: rotate(-180deg);
+    padding: 0 0 10px 0 ;       
+}
+
+.text-vertical-right{
+  writing-mode:vertical-rl;
+  text-orientation: sideways; 
+  margin: 14px 0 10.6px 0;
+       
+}
+
+.title, img.width-100, .banner {
+  width: 100%;
+}
+
+img.title-align {
+  margin: 56px 0 15px 0;
+}
+
+/* img.banner {
+  border: 5px solid black;
+} */
+
+
+/* Header */
+
+div#logo {
+    
+    border: 5px solid rgb(48,45,52);
+    position: relative;
+}
+
+div#logo.img-thumbnail div#logo>img {
+    
+    height: 80%;
+    margin: 10px;
+}
+
+/* nav */
+
+ul.main-nav {
+    transform: translateY(-50%);
+}
+
+a.nav-link {
+    border: 5px solid rgb(48,45,52);
+    background-color: rgb(225,128,41);
+    color: rgb(48,45,52);
+    margin: 5px 15px;
+    z-index: 1;
+    /* display: inline-block; */
+}
+
+ul#university-list>li>a.nav-link {
+  display: inline-block;
+}
+
+a.nav-link-symbol {
+  border: 1px solid black;
+  background-color: white;
+  margin: 2px;
+  padding: 3px;
+  z-index: 0;
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgb(225,128,41);
+}
+
+a.nav-link:hover {
+  background-color:rgb(232,228,225);
+  
+}
+
+/* construction aids */
+
+.container-fluid {
+    padding: 0;
+}
+
+div.row, footer.row {
+    /* border: 1px solid blue; */
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+div.row-nested {
+  margin: 0;
+  padding: 0px;
+  /* border: 5px solid black; */
+}
+
+div.col, div.col-1, div.col-2, div.col-3, div.col-4, div.col-5, div.col-6, div.col-7, div.col-8, div.col-9, div.col-10 {
+    /* border: 1px solid red; */
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100%;
+}
+
+div.col-1, div.col-2, div.col-10 {
+  padding: 0;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.black-border, img.black-border {
+  border: 5px solid black;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+div.w-padding {
+  padding: 0 15px;
+}
+
+div.margin-bottom {
+  margin-bottom: 15px;
+}
+
+div.margin-top {
+  margin-top: 15px;
+}
+
+
+/* footer */
+
+footer.row {
+  background-color: white;
+  margin: 15px 0 0 0;
+  min-height: unset;
+  max-height: 50px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+ 
+  ul.main-nav {
+    transform: translateY(00%);
+  }
+  .nav {
+    display: unset;
+  }
+
+  img.title-align {
+    margin: 0px 0 15px 0;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) { 
+  
+  l.main-nav {
+    transform: translateY(00%);
+  }
+  .nav {
+    display: unset;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) { 
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  
+}
