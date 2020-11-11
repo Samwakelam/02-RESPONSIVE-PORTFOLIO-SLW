@@ -22,6 +22,7 @@ My project stands out using navigation methods throughout the website, not just 
     * Contact Page
     * Fashion Page
     * Building Page
+* Update
 * Credits
 * License 
 
@@ -31,7 +32,14 @@ The major frame work that I have utilised for this project is Bootstrap.
 
 ## Usage
 
-This part of the README defines the project from the point at which I asked for help with underlying issues I had encountered. My online Tutor helped me to clean up the code and better display my pages. 
+This Project has two stages.
+* [My Portfolio](https://samwakelam.github.io/02-RESPONSIVE-PORTFOLIO-SLW/update-Nov/index.html).
+
+* [My first attempt](https://samwakelam.github.io/02-RESPONSIVE-PORTFOLIO-SLW/).
+
+Below you will see laid out my readme from the second week of the course where our task was to create a responsive portfolio. This has been left in to demonstrate the use of multiple html and my progress to this point. 
+
+Please find the Update section for information on my second portfolio and the improved image useage. 
 
  ### Index Page
  ![Index page about sam](assets/images/screenshots/homeSam-min.JPG)
@@ -104,6 +112,24 @@ The cards, either squash the photos, or are massive on the page and I have tried
 This Page I completed having researched CSS image gallery, as an alternative to the cards as a presentation. I needed to demonstrate Bootstrap but also I wanted to test some other theories. This seems to have gone to plan. 
 
 (Update 27.09.2020 - There is an odd flickering effect if I increase the :hover to 2px boarder. Described in notes in HTML and CSS, I believe it is a magin padding and box-size issuse, but I am not sure where to target.)
+
+## Update
+
+(Update 11.11.2020) - Having spent 6 weeks intense learning on the course I feel alot more confident with CSS, images and general layout. 
+
+looking back at my work from week 2 I know I can do better ... and so I have. 
+
+Part of the requirments was to have a seperate contact page. i have purposfully left this out of this version as there was not enough content to produce an interesting page. 
+
+There are a number of links to parts on the page including the contact section which is more relevant in a smaller screen size. 
+
+There are a number of responsive layouts for different sizes to best fill the screen. 
+
+My design is based around a news bulliten or artical layout with the large titles and blocks of text. It is a design portfolio and so images are crutial. 
+
+![HomePage](update-Nov/assets/images/screenshots/about-screen.png)
+
+![HomePage](update-Nov/assets/images/screenshots/portfolio-screen.png)
 
 ## Credits 
 

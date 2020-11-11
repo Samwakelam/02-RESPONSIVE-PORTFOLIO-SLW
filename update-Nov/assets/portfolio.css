@@ -103,4 +103,7 @@ ol.carousel-indicators>li {
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     
+    h2#scand-md {
+        display: none;
+    }
  }
